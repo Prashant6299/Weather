@@ -1,0 +1,76 @@
+body{
+    color: rgb(34, 33, 33);
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 15px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;  
+}
+
+div.main{
+    flex-grow: 1;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+header a{
+    text-decoration: none;
+    color: gray;
+    display: inline-block;
+    margin-right: 0.5rem;
+}
+
+footer{
+    border-top: 1px solid gray;
+    color: gray;
+    margin-top: 1rem;
+}
+
+div#pic-container{
+    height: 30vh;
+    width: 40vw;        
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+        /* display: block;
+        margin: auto */
+}
+
+input#location{
+    padding: 0.6rem;
+    border: 0.5px solid gray;
+    border-radius: 2px;
+}
+
+input#search{
+    cursor: pointer;
+    padding: 0.62rem;
+    background-color: rgb(109, 101, 101);
+    color: white;
+    border: none;   
+}
+
+div.loading{
+    color: gray;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+div.error{
+    color: rgb(241, 88, 88);
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+div.weather-data{
+    font-size: 1.2rem;
+    color: rgb(71, 70, 70);
+}
+ 
